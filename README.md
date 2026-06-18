@@ -98,27 +98,6 @@ The inference pipeline uses **PyAudio** for live audio streaming:
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/trigger-word-detection.git
-cd trigger-word-detection
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Open the notebook
-```bash
-jupyter notebook
-```
-
-Run all cells top-to-bottom to train the model and launch real-time detection.
-
----
 
 ## 📦 Requirements
 
@@ -129,26 +108,8 @@ Key libraries used:
 - `matplotlib` — spectrogram generation
 - `numpy` — numerical operations
 
-See `requirements.txt` for the full list.
-
 ---
 
-## 📁 Project Structure
-
-```
-trigger-word-detection/
-├── notebook.ipynb          # Main project notebook
-├── requirements.txt        # Python dependencies
-├── README.md
-│
-├── data/
-│   └── audio_samples/      # WAV recordings (0 = random, 1 = "help")
-│
-└── theory/
-    └── notes.md            # Architecture and design notes
-```
-
----
 
 ## 💡 Key Concepts
 
